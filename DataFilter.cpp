@@ -21,7 +21,7 @@ char STRINGTOSEARCH[][10] = {
 " ",          //MAIS3
 " "           //MAIS4
 };
-int GetBetData(PDadosAposta p,char file[]){
+int GetBetData(PDadosAposta p,char *file){
 p->file = fopen(file,"rb");
 if(p->file == NULL){
     return FILEERROR;
