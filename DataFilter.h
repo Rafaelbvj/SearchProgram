@@ -4,8 +4,8 @@
 #include <string.h>
 
 #define  FILTERERROR            -1
-#define  FILEERROR              1
-#define  OPTIONERROR            2
+#define  FILEERROR              -2
+#define  OPTIONERROR            -3
 
 #define  FILTER_ALL             0x13
 #define  FILTER_GMC             0
