@@ -61,7 +61,6 @@ return FILTERERROR;
 float FilterBetDataById(PDadosAposta pda,const int option){
 
 switch(option){
-case FILTER_ALL:break;
 case FILTER_CASA:           pda->CASA      =    FilterBetDataByName(pda,STRINGTOSEARCH[FILTER_CASA]);          return pda->CASA;
 case FILTER_CASAMARCA:      pda->CASAMARCA =    FilterBetDataByName(pda,STRINGTOSEARCH[FILTER_CASAMARCA]);     return pda->CASAMARCA;
 case FILTER_CASANAOMARCA:   pda->CASANAOMARCA = FilterBetDataByName(pda,STRINGTOSEARCH[FILTER_CASANAOMARCA]);  return pda->CASANAOMARCA;
