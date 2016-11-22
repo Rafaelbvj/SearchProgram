@@ -1,5 +1,7 @@
 #include <malloc.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 #define  FILTERERROR            0
 #define  FILEERROR              1
@@ -44,5 +46,7 @@ int sizeData;
 }DadosAposta,*PDadosAposta;
 
 int GetBetData(PDadosAposta,char*);
-int FilterBetData(PDadosAposta,const int);
+float FilterBetDataById(PDadosAposta,const int);
 void ReleaseBetData(PDadosAposta);
+float FilterBetDataByName(PDadosAposta,char *);
+
