@@ -46,5 +46,3 @@ int sizeData;
 int GetBetData(PDadosAposta,char*);
 int FilterBetData(PDadosAposta,const int);
 void ReleaseBetData(PDadosAposta);
-
-
