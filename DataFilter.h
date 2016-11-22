@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define  FILTERERROR            0
+#define  FILTERERROR            -1
 #define  FILEERROR              1
 #define  OPTIONERROR            2
 
