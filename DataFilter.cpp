@@ -1,25 +1,25 @@
 #include "datafilter.h"
 
-char STRINGTOSEARCH[][10] = {
-" ",          //GMC
-" ",          //GMF
-" ",          //EMP
-" ",          //DPLC
-" ",          //DPLF
-" ",          //FORA
-" ",          //FORAMARCA
-" ",          //FORANAOMARCA
-" ",          //CASA
-" ",          //CASAMARCA
-" ",          //CASANAOMARCA
-" ",          //MENOS1
-" ",          //MENOS2
-" ",          //MENOS3
-" ",          //MENOS4
-" ",          //MAIS1
-" ",          //MAIS2
-" ",          //MAIS3
-" "           //MAIS4
+char STRINGTOSEARCH[][13] = {
+"51-1-1.5",          //GMC
+"51-2-1.5",          //GMF
+"10-X",              //EMP
+"46-1X",             //DPLC
+"46-X2",             //DPLF
+"10-2",              //FORA
+"386-HY",            //FORAMARCA
+"386-HN",            //FORANAOMARCA
+"10-1",              //CASA
+"386-AY",            //CASAMARCA
+"396-AN",            //CASANAOMARCA
+"56-Under-1.5",      //MENOS1
+"56-Under-2.5",      //MENOS2
+"56-Under-3.5",      //MENOS3
+"56-Under-4.5",      //MENOS4
+"56-Over-1.5",       //MAIS1
+"56-Over-2.5",       //MAIS2
+"56-Over-3.5",       //MAIS3
+"56-Over-4.5"        //MAIS4
 };
 int GetBetData(PDadosAposta p,char *file){
 p->file = fopen(file,"rb");
